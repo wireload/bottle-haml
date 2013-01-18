@@ -16,8 +16,18 @@ Once installed, use is simple. Simply import the helper method `haml_template` a
 
 From there, usage is exactly the same as Bottle's built-in `template` method except it will search for files with the extension `.haml` and parse them as Haml.
 
+    @route('/')
+    def index():
+        headlines = [
+            "Truck Stuck in Cat, Firefighters Baffled",
+            "Local Pet Spider, Silky, Missing"
+        ]
+        return haml_template('index', headlines=headlines)
+
 ## Haml reference
 
 `bottle-haml` uses the [PyHaml](https://github.com/mikeboers/PyHAML) module to parse Haml into the Mako templates that Bottle uses. For a reference of the Haml syntax supported please see the PyHaml project's GitHub page.
+
+- - -
 
 Copyright (c) 2013 [WireLoad Inc.](http://www.wireload.com/)
