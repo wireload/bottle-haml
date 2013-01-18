@@ -19,7 +19,7 @@ From there, usage is exactly the same as Bottle's built-in `template` method exc
     @route('/')
     def index():
         headlines = [
-            "Truck Stuck in Cat, Firefighters Baffled",
+            "Tree Stuck in Cat, Firefighters Baffled",
             "Local Pet Spider, Silky, Missing"
         ]
         return haml_template('index', headlines=headlines)
