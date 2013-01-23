@@ -9,7 +9,7 @@ setup(
     name="bottle-haml",
     packages=["bottlehaml",],
     install_requires=dependencies,
-    version="0.1.3",
+    version="0.1.4",
     author="Zachary Jones",
     author_email="me@zacharytamas.com",
     license="BSD",
