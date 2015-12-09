@@ -14,6 +14,7 @@ setup(
     author_email="me@zacharytamas.com",
     license="BSD",
     url="https://github.com/wireload/bottle-haml",
+    description='Extension for using Haml templates in your Bottle applications',
     long_description=open('README.md').read(),
     package_data = {
         '': ['*.md', '*.txt']
